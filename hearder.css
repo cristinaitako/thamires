@@ -1,0 +1,33 @@
+.cabecalho{
+    background-color: var(--fundo-azul);
+    margin: 0;
+}
+.container{
+     display: flex;
+     align-items: center;  
+
+}
+
+ .container_imaagem{
+    width: 45px;
+    height: 45px;
+ }
+
+ .container__titulo, .container__imagem, .container__frase{
+    padding: 0.1em;
+    color: white;
+ }
+  
+ .container__titulo, .container__frase{
+    display: flex;
+ }
+
+ .cx-texto{
+    display:flex ;
+    justify-content: center;
+ }
+.orientacao3{
+    display: block;
+    font-size: 30px;
+    color: orange;
+}
